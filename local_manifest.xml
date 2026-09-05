@@ -5,12 +5,17 @@
         name="manipvlator"
         fetch="https://github.com/manipvlator/" />
 
+    <!-- Other sources -->
+    <remote
+       name="gh"
+       fetch="https://github.com/" />
+
     <!-- Device -->
     <project
         path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="manipvlator"
-        revision="16" />
+        revision="alpha" />
 
     <project
         path="device/xiaomi/sm6150-common"
@@ -70,5 +75,12 @@
         name="android_packages_apps_LunarisDolby"
         remote="manipvlator"
         revision="main" />
+
+    <!-- Interfaces -->
+    <project
+        name="AlphaDroid-Project/hardware_pixelworks_interfaces"
+        path="hardware/pixelworks/interfaces"
+        remote="gh"
+        revision="alpha-16.2" />
 
 </manifest>
