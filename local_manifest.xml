@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- ＭＡＮＩＰＵＬＡＴＯＲ -->
     <remote
         name="manipvlator"
         fetch="https://github.com/manipvlator/" />
@@ -10,20 +11,20 @@
         path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="manipvlator"
-        revision="16" />
+        revision="17" />
 
     <project
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="manipvlator"
-        revision="16" />
+        revision="17" />
 
     <!-- Vendor -->
     <project
         path="vendor/xiaomi/sm6150-common"
         name="vendor_xiaomi_sm6150-common"
         remote="manipvlator"
-        revision="16" />
+        revision="17" />
 
     <project
         path="vendor/xiaomi/sweet"
