@@ -11,13 +11,13 @@
         path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="manipvlator"
-        revision="17" />
+        revision="shinkai" />
 
     <project
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="manipvlator"
-        revision="17" />
+        revision="shinkai" />
 
     <!-- Vendor -->
     <project
@@ -60,6 +60,8 @@
         revision="stable" />
 
     <!-- Dolby -->
+    <remove-project name="ShinkaiProject/android_packages_apps_DolbyAtmos" />
+    
     <project
         path="vendor/sony/dolby"
         name="proprietary_vendor_sony_dolby"
