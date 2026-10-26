@@ -83,4 +83,11 @@
         remote="manipvlator"
         revision="16.2" />
 
+    <!-- KProfiles -->
+    <project
+        path="packages/apps/KProfiles"
+        name="android_packages_apps_Kprofiles"
+        remote="manipvlator"
+        revision="main" />
+
 </manifest>
