@@ -81,4 +81,11 @@
         remote="manipvlator"
         revision="main" />
 
+    <!-- PalapaUI sweet -->
+    <project
+        path="vendor/palapaui-sweet"
+        name="PalapaUI"
+        remote="manipvlator"
+        revision="main" />
+
 </manifest>
